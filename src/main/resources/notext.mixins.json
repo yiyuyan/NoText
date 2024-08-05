@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.notext.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "notext.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "GuiStrMixin",
+    "MinecraftMixin",
+    "MutableTextMixin",
+    "SplashManagerMixin",
+    "TextMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
